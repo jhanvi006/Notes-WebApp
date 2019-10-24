@@ -1,0 +1,139 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #F8FBF7;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+}
+
+#bg {
+	background-color: #F8FBF7; 
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	/*float: left;*/
+	text-align: center;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 30pt;
+	color: #4E6374;
+	width: 100%;
+	padding-top: 0.5em;
+
+}
+
+ul {
+	margin: 0;
+  	padding: 0;
+  	display: block;
+}
+
+li {
+	display: block;
+  	color: #000;
+  	/*padding: 8px 16px;*/
+}
+
+img{
+	padding-right: 0.5em;
+	float: left;
+}
+
+button{
+	width: 130px;
+	height: 50px;
+	border: none;
+}
+
+.nav-top{
+	width: 100%;
+	height: 20%;
+	background-color: #ccc;
+	display: inline-block;
+	/*margin: 1em 1em 0 0;*/
+	padding: 1em 2em 0 2em;
+	text-decoration: none;
+}
+
+.nav-side{
+	float: left;
+  	background: #ccc;
+  	/*padding: 20px;*/
+  	width: 10%;
+  	height: 100%;
+}
+
+.nav-side li {
+	margin: 0.5em;
+	padding: 1em 2em 0 2em;
+	float: left;
+}
+
+/**************************** Custom styles **************************/
+
+/******** Textarea for Notes ********/
+textarea{
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 5px;
+	font-size: 12px;
+	resize: both;
+}
+
+
+/*********** Dropdown *************/
+.dropbtn {
+  	/*background-color: gray;
+  	color: white;
+  	padding: 16px;
+  	font-size: 16px;*/
+  	display: inline;
+  	/*border: none;*/
+}
+
+/*.dropbtn:hover, .dropbtn:focus {
+  	background-color: #2980B9;
+}*/
+
+.dropdown {
+  	position: relative;
+  	display: inline-block;
+	margin: 1em 0em 0 0;
+	padding: 0 1em 0 1em;
+	text-decoration: none;
+	float: right;
+	clear: left;
+}
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+  	overflow: auto;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
